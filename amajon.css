@@ -1,0 +1,149 @@
+/*this is for inspecting web pages of amazon prime*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #section1{
+    height: 48px;
+    background-color: black;
+    color: rgba(220, 220, 220, 0.776);
+    padding-top: 15px;
+  }
+  .pos1 .pos2{
+    display: inline-block;
+  }
+  img[alt="Prime Video"]{
+    height:20px;
+    width: 100px;
+    margin:0px 50px 0px 270px;
+  }
+  .pos2 p{
+   margin-right: 40px;
+   font-weight: 700px;
+   font-size: 1.255rem;
+   position: relative;
+    bottom: 5px;
+  }
+  .con{
+    color: white;
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .placeholder1{
+  
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-color: #000;
+  }
+  .placeholder2{
+    
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+      background-color: #000;
+  }
+  #pos1{
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+  #pos1 h1,p{
+    margin-bottom: 35px;
+  }
+  #pos1 h1{
+    font-weight: 400px;
+    font-size: 2.5rem;
+
+  }
+  #pos1 p{
+    font-size: 1.3rem;
+    width: 600px;
+    padding-left: 5px;
+  }
+  #pos1 button{
+    background-color:#0f79af;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 8px;
+  }
+  #pos2 button{
+    background-color:#0f79af;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 100px;
+    border: none;
+    border-radius: 8px;
+  }
+  #pos2{
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+  #pos2 h1,p{
+    margin-bottom: 35px;
+  }
+  #pos2 h1{
+    font-weight: 400px;
+    font-size: 2.5rem;
+
+  }
+  #pos2 p{
+    font-size: 1.3rem;
+    width: 600px;
+    padding-left: 5px;
+  }
+  .con1{
+    height:620px;
+    width: 100%;
+    position: relative;
+    padding: 0px 85px;
+  }
+  #pos3{
+    width: 40%;
+    padding-top: 40px;
+    position: absolute;
+  }
+  #pos4 img{
+    width: 180px;
+    height:150px;
+    padding: 0px 8px 8px 0px;
+
+  }
+  #pos3 h1{
+    font-size: 3.0rem;
+    font-weight: 400px;
+    margin-bottom: 30px;
+  }
+  #pos3 p{
+    font-size: 1.7rem;
+  }
+  #pos4{
+    width: 47%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 720px;
+    margin-top: 10px;
+    transition: 1s;
+    
+  }
+  #pos4 img:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.691) inset;
+  }
+  #pos5{
+    height: 150px;
+    background-color: #222222;
+    text-align: center;
+    padding-top: 30px;
+
+  }
+  #pos5 p{
+    color:#8197a4;
+    padding-top: 13px;
+  }
+  #pos6 a{
+    color: #79b8f3;
+  }

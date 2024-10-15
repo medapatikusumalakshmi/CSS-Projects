@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#bgimg{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url("https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/81bdc063-cb8f-4afe-8a02-a3131ca4ef5e/IN-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_7998f3b6-63e3-424a-8328-550cf777ddce_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-left: 110px;
+    padding-right: 160px;
+}
+#logo{
+    width: 230px;
+    height: 38px;
+    fill: red;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+input[value="Sign In"]{
+    width:60px ;
+    height:30px ;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+   
+}
+button[id="engbtn"]{
+    height: 35px;
+    width: 150px;
+    background-color:black;
+    color: white;
+    border: solid white;
+    margin-right: 50px;
+    border-radius: 4px;
+}
+#content{
+    color: white;
+    text-align: center;
+    height: 250px;
+    padding-top: 200px;
+}
+h1
+{
+    font-size: 2.6rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+p{
+    font-size:1.300rem ;
+    font-weight:200 ;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #f7f3f7;
+}
+.btntyp{
+    width: 270px;
+    height: 55px;
+    background-color: transparent;
+    color: white;
+    text-align:left;
+    border: solid white;
+    padding-left: 15px;
+    
+}
+#btn{
+    height: 55px;
+    width:160px ;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: red;
+    color: white;
+}
